@@ -1,0 +1,31 @@
+Package: mzimp
+Title: Zero-Inflated Mixed Poisson Regression for Multivariate Count
+        Data
+Version: 0.1.0
+Authors@R: 
+    person(
+        given = "Quang Huy",
+        family = "Nguyen",
+        email = "huynqtkt@neu.edu.vn",
+        role = c("aut", "cre",  "cph")
+    )
+Description: Fits and selects zero-inflated mixed Poisson models for
+    multivariate count regression. Supports multiple mixing distributions
+    and variance specifications for flexible marginal modeling, while
+    allowing dependence in the structural-zero components and latent
+    mixing intensities to be modeled separately through copulas.
+    The methodology is described in Nguyen (2026)
+    <doi:10.48550/arXiv.2608.12732>.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: Rcpp, numDeriv, MASS, statmod, VineCopula, codetools, mvtnorm,
+        pbivnorm, pkgload, ps, randtoolbox
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: knitr, rmarkdown, PLNmodels
+NeedsCompilation: yes
+Packaged: 2026-10-23 02:05:50 UTC; AD
+Author: Quang Huy Nguyen [aut, cre, cph]
+Maintainer: Quang Huy Nguyen <huynqtkt@neu.edu.vn>
+Repository: CRAN
+Date/Publication: 2026-11-06 13:00:07 UTC
